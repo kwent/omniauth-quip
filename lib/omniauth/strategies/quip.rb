@@ -3,12 +3,6 @@
 require 'omniauth/strategies/oauth2'
 require 'uri'
 
-# Potential scopes: https://developer.atlassian.com/cloud/jira/platform/scopes/
-# offline_access read:confluence-space.summary read:confluence-props read:confluence-content.all read:confluence-content.summary search:confluence
-#
-# Separate scopes with a space (%20)
-# https://developer.atlassian.com/cloud/confluence/oauth-2-authorization-code-grants-3lo-for-apps/
-
 module OmniAuth
   module Strategies
     # Omniauth strategy for Quip
